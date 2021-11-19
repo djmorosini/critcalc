@@ -19,12 +19,22 @@ td select {
 
 h4 {
   color: orangered;
+  margin:0;
 }
 
 th {
   color: orangered;
 }
 
+select {
+  color:white;
+  background-color:black;
+}
+
 .standout {
   color: orangered;
+}
+
+#main {
+  width: 100%;
 }
