@@ -9,7 +9,7 @@ table {
 }
 
 table, td, th {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 td select {
@@ -19,7 +19,7 @@ td select {
 
 h4 {
   color: orangered;
-  margin:0;
+  margin:2px;
 }
 
 th {
