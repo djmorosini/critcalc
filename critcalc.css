@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  color:white;
+  background-color: black;
 }
 
 table {
@@ -13,4 +15,8 @@ table, td, th {
 td select {
   border: none;
   -webkit-appearance: none;
+}
+
+h4 {
+  color: orangered;
 }
