@@ -1,0 +1,2 @@
+# critcalc
+crit calculator
