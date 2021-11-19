@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Crit Calculator</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" media="all" href="critcalc.css" />
+  <script src="critcalc.js"></script>
+</head>
+<body>
+  <div id='main-scoring'>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <th></th>
+      <th>Crit dmg</th>
+      <th>Present</th>
+    </tr>
+    <tr>
+      <td>Baseline</td>
+      <td>50%</td>
+      <td>Yes</td>
+    </tr>
+  </table>
+  <h4>Class</h4>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <td><select><option>Nightblade</option><option>Templar</option><option>Warden</option></select></td>
+      <td>10%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+  </table>
+  <h4>Race</h4>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <td>Khajiit</td>
+      <td>12%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+  </table>
+  <h4>Champion Points</h4>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <td>Backstabber</td>
+      <td>15%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Fightning Finesse</td>
+      <td>10%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+  </table>
+  <h4>Mundus</h4>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <td>Shadow(7 divine)</td>
+      <td>17%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+  </table>
+  <h4>Group Buffs</h4>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <td>Elemental Catalyst</td>
+      <td>15%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Major Force</td>
+      <td>20%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Minor Brittle</td>
+      <td>10%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Minor Force</td>
+      <td>10%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+  </table>
+  <h4>Personal Loadout</h4>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 49%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 23%;">
+    </colgroup>
+    <tr>
+      <td>Axes (DW passive)</td>
+      <td>6%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Battle Axe</td>
+      <td>12%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Harpooner's Kilt</td>
+      <td>10%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Malacath's Band</td>
+      <td>-50%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Medium Armor Pcs</td>
+      <td>2%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Sul-Xan's Torment</td>
+      <td>12%</td>
+      <td><select><option>Yes</option><option>No</option></select></td>
+    </tr>
+  </table>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 50%;">
+      <col span="1" style="width: 50%;">
+    </colgroup>
+    <tr>
+      <td>Crit Cap</td>
+      <td>125%</td>
+    </tr>
+    <tr>
+      <td>Crit Build</td>
+      <td><label id="crit"></label></td>
+    </tr>
+    <tr>
+      <td>Overcrit</td>
+      <td><label id="overcrit"></label></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
