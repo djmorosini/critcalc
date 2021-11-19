@@ -6,6 +6,7 @@ body {
 
 table {
   border-collapse: collapse;
+  margin: 2px;
 }
 
 table, td, th {
@@ -36,5 +37,5 @@ select {
 }
 
 #main {
-  width: 100%;
+  width: 95%;
 }
