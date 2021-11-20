@@ -19,6 +19,7 @@ table, td, th {
 td select {
   border: none;
   -webkit-appearance: none;
+  font-size: 14px;
 }
 
 h4 {
