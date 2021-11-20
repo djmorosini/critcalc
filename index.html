@@ -35,9 +35,19 @@
       <col span="1" style="width: 23%;">
     </colgroup>
     <tr>
-      <td><select id="classSelect"><option>Nightblade</option><option>Templar</option><option>Warden</option></select></td>
+      <td>Nightblade - Hemorrhage</td>
       <td>10%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select1" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Templar - Piercing Spear</td>
+      <td>10%</td>
+      <td><select id="select2" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
+    </tr>
+    <tr>
+      <td>Warden - Glacial Presence</td>
+      <td>10%</td>
+      <td><select id="select3" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
   </table>
   <h4>Race</h4>
@@ -50,7 +60,7 @@
     <tr>
       <td>Khajiit</td>
       <td>12%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select4" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
   </table>
   <h4>Champion Points</h4>
@@ -63,12 +73,12 @@
     <tr>
       <td>Backstabber</td>
       <td>15%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select5" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Fightning Finesse</td>
       <td>10%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select6" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
   </table>
   <h4>Mundus</h4>
@@ -81,7 +91,7 @@
     <tr>
       <td>Shadow(7 divine)</td>
       <td>17%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select7" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
   </table>
   <h4>Group Buffs</h4>
@@ -94,22 +104,22 @@
     <tr>
       <td>Elemental Catalyst</td>
       <td>15%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select8" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Major Force</td>
       <td>20%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select9" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Minor Brittle</td>
       <td>10%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select10" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Minor Force</td>
       <td>10%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select11" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
   </table>
   <h4>Personal Loadout</h4>
@@ -122,32 +132,32 @@
     <tr>
       <td>Axes (DW passive)</td>
       <td>6%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select12" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Battle Axe</td>
       <td>12%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select13" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Harpooner's Kilt</td>
       <td>10%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select14" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Malacath's Band</td>
       <td>-50%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select15" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Medium Armor Pcs</td>
       <td>2%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select16" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
     <tr>
       <td>Sul-Xan's Torment</td>
       <td>12%</td>
-      <td><select><option>Yes</option><option>No</option></select></td>
+      <td><select id="select17" onchange="updateCrit()"><option>Yes</option><option>No</option></select></td>
     </tr>
   </table>
   <table>
