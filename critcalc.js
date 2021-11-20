@@ -21,7 +21,11 @@ function updateCrit() {
       } else if (i == 15) {
         crit -= 50;
       } else if (i == 16) {
+        if(document.getElementById("mediumArmor").value == "2%") {
         crit += 2;
+        } else {
+          crit += 4;
+        }
       }
     }
   }
