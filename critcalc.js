@@ -3,7 +3,7 @@ function updateCrit() {
   //baseline
   crit = 50;
   // class
-  for (let i = 1; i < 18; i++) {
+  for (let i = 1; i < 17; i++) {
     var select = document.getElementById(i).value;
     if(select == "Yes") {
       if(i < 4 || i == 6 || i == 10 || i == 11 || i == 14) {
