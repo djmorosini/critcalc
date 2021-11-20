@@ -3,8 +3,8 @@ function updateCrit() {
   //baseline
   crit = 50;
   // class
-  for (let i = 1; i < 17; i++) {
-    var select = document.getElementById(i).value;
+  for (let i = 1; i < 18; i++) {
+    var select = document.getElementById("select" + i).value;
     if(select == "Yes") {
       if(i < 4 || i == 6 || i == 10 || i == 11 || i == 14) {
         crit += 10;
