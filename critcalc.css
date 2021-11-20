@@ -9,6 +9,7 @@ table {
   border-collapse: collapse;
   margin: 2px;
   width: 95%;
+  text-align: center;
 }
 
 table, td, th {
@@ -32,6 +33,7 @@ th {
 select {
   color:white;
   background-color:black;
+  text-align: center;
 }
 
 .standout {

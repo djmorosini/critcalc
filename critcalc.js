@@ -24,6 +24,6 @@ function updateCrit() {
   crit + 2;
   crit + 12;
 
-  document.getElementById("crit").innerHTML = crit;
-  document.getElementById("overcrit").innerHTML = crit - 125;
+  document.getElementById("crit").innerHTML = crit + "%";
+  document.getElementById("overcrit").innerHTML = (crit - 125) + "%";
 }
