@@ -1,8 +1,6 @@
 function updateCrit() {
   var crit;
-  //baseline
   crit = 50;
-  // class
   for (let i = 1; i < 18; i++) {
     var select = document.getElementById("select" + i).value;
     if(select == "Yes") {
@@ -29,7 +27,6 @@ function updateCrit() {
       }
     }
   }
-
   document.getElementById("crit").innerHTML = crit + "%";
   document.getElementById("overcrit").innerHTML = (crit - 125) + "%";
 }
