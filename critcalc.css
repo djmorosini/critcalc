@@ -38,6 +38,7 @@ select {
 
 .standout {
   color: orangered;
+  font-weight: bold;
 }
 
 #main {
