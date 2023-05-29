@@ -15,7 +15,7 @@ function updateCrit() {
       } else if (i == 9) {
         crit += 20;
       } else if (i == 12) {
-        crit += 6;
+        crit += parseInt(document.getElementById("axes").value);
       } else if (i == 15) {
         crit -= 50;
       } else if (i == 16) {
